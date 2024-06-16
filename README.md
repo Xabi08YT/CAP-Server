@@ -28,3 +28,7 @@ IN CASE OF A FORGOTTENT PASSWORD, IT IS NOT POSSIBLE TO RECOVER THE DATA STORED 
 # Software responsivness
 
 This software may seem slow and it is intended in way because it has to decrypt all data needed to operate.
+
+# SSL
+
+TLS/SSL is currently not supported. However you still can use SSL/TLS by adding a NGINX reverse proxy by either using the official nginx image or by using the docker image from (this)[https://nginxproxymanager.com/] project.
